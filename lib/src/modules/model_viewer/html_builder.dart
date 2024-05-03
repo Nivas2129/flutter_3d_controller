@@ -384,6 +384,7 @@ abstract class HTMLBuilder {
     if (innerModelViewerHtml != null) {
       modelViewerHtml.writeln(innerModelViewerHtml);
     }
+    modelViewerHtml.writeln('<div slot="pan-target"> </div>');
     modelViewerHtml.writeln('</model-viewer>');
 
     if (relatedJs != null) {
