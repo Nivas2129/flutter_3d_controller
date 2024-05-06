@@ -44,7 +44,7 @@ class _Flutter3DViewerState extends State<Flutter3DViewer> {
       progressBarColor: widget.progressBarColor,
       relatedJs: _utils.injectedJS(),
       ar: false,
-      autoPlay: false,
+      autoPlay: true,
       autoRotate: true,
       autoRotateDelay: 1500,
       debugLogging: false,
