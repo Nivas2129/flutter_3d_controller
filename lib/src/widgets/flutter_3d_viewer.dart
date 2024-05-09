@@ -47,6 +47,7 @@ class _Flutter3DViewerState extends State<Flutter3DViewer> {
       autoPlay: true,
       autoRotate: true,
       autoRotateDelay: 1500,
+      loading: Loading.eager,
       debugLogging: false,
       interactionPrompt: InteractionPrompt.none,
       onWebViewCreated: kIsWeb
